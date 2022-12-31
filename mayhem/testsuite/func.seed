@@ -1,0 +1,5 @@
+def f(x):
+    a = x * x
+    b = x * a
+    c = a + b
+    return c
