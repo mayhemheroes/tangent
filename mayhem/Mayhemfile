@@ -1,0 +1,9 @@
+project: tangent
+target: fuzz-deriv
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /src/mayhem/fuzz_deriv.py
+    libfuzzer: true
+    timeout: 15
